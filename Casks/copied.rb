@@ -7,6 +7,11 @@ cask "copied" do
   desc "Clipboard manager with search, lists, and iCloud sync"
   homepage "https://www.getcopied.app/"
 
+  livecheck do
+    url "https://www.getcopied.app/appcast.xml"
+    strategy :sparkle
+  end
+
   depends_on macos: :sequoia
 
   pkg "Copied-v#{version.csv.first}-build#{version.csv.second}.pkg"
