@@ -1,6 +1,6 @@
 cask "copied" do
-  version "1.3.3,15"
-  sha256 "dbc0036dfc6bb931ff01a08735998ec6796ca9a2c9e62f6c404e3094c5a394ed"
+  version "1.3.3,18"
+  sha256 "009beae4214d7e4c4a6e16804c3bcf38c4185f90bcdde368243861349026dff5"
 
   url "https://github.com/MagnetonIO/copied-app/releases/download/v#{version.csv.first}/Copied-v#{version.csv.first}-build#{version.csv.second}.pkg"
   name "Copied"
